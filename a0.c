@@ -5,7 +5,34 @@
 
 int boomersooner() {
     // TODO write code here
-    return -1; // <-- Update as needed
+    while(1) { 
+	  int num; 
+	  char name; 
+	  //check if int or not
+	  if(scanf("%d%c", &num, %name) !=2){ 
+		  printf("not an integer,goodbye!\n"); 
+		  break; 
+        	}
+	 //if it is an integer we need to check if divisible 
+	 //by 3 or/and  5  
+	 if(num%3 ==0 && num%5 ==0) 
+	 { 
+		 printf("Boomer Sooner!\n"); 
+	 } 
+	 else if (num%3 ==0) 
+	 { 
+		 printf("Boomer!\n"); 
+	 } 
+	 else if (num%5 ==0) 
+	 { 
+		 printf("Sooner!\n"); 
+	 } 
+	 else 
+	 { 
+		 printf("%d\n", num);
+	 } 
+	} 
+    return 0; // <-- Update as needed
 }
 
 int main (int argc, char **argv) {
