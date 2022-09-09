@@ -9,7 +9,7 @@ int boomersooner() {
 	  int num; 
 	  char name; 
 	  //check if int or not
-	  if(scanf("%d%c", &num, %name) !=2){ 
+	  if(scanf("%d%c", &num, &name) !=2){ 
 		  printf("not an integer,goodbye!\n"); 
 		  break; 
         	}
